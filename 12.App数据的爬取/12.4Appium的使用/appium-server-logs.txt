@@ -1,0 +1,144 @@
+[info] [35m[HTTP][39m Waiting until the server is closed
+[info] [35m[HTTP][39m Received server close event
+[info] [35m[Appium][39m Welcome to Appium v1.22.3
+[info] [35m[Appium][39m Non-default server args:
+[info] [35m[Appium][39m   relaxedSecurityEnabled: true
+[info] [35m[Appium][39m   allowInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m   denyInsecure: {
+[info] [35m[Appium][39m   }
+[info] [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723[info] [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[info] [35m[HTTP][39m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Redmi_K30_5G","appium:appPackage":"com.goldze.mvvmhabit","appium:appActivity":".ui.MainActivity","appium:noReset":true,"appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:deviceName":"Redmi_K30_5G","appium:appPackage":"com.goldze.mvvmhabit","appium:appActivity":".ui.MainActivity","appium:noReset":true,"appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:deviceName":"Redmi_K30_5G","appium:appPackage":"com.goldze.mvvmhabit","appium:appActivity":".ui.MainActivity","appium:noReset":true,"appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true},null,{"alwaysMatch":{"platformName":"Android","appium:deviceName":"Redmi_K30_5G","appium:appPackage":"com.goldze.mvvmhabit","appium:appActivity":".ui.MainActivity","appium:noReset":true,"appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1747402900976 (21:41:40 GMT+0800 (中国标准时间))
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m   DEPRECATION WARNING:
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[warn] [35m[Appium][39m   capabilities for this Android session
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[warn] [35m[Appium][39m   UiAutomator2 Driver
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[warn] [35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[warn] [35m[Appium][39m   platforms
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[warn] [35m[Appium][39m   'automationName=UiAutomator1'
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[warn] [35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m   For more information about drivers, please visit 
+[warn] [35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[warn] [35m[Appium][39m   'Drivers' menu
+[warn] [35m[Appium][39m 
+[warn] [35m[Appium][39m ======================================================================
+[warn] [35m[Appium][39m 
+[info] [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[info] [35m[Appium][39m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Android",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Redmi_K30_5G",
+[debug] [35m[BaseDriver][39m     "appium:appPackage": "com.goldze.mvvmhabit",
+[debug] [35m[BaseDriver][39m     "appium:appActivity": ".ui.MainActivity",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:ensureWebviewsHavePages": true,
+[debug] [35m[BaseDriver][39m     "appium:nativeWebScreenshot": true,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 3600,
+[debug] [35m[BaseDriver][39m     "appium:connectHardwareKeyboard": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[warn] [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[warn] [35m[BaseDriver][39m   connectHardwareKeyboard
+[info] [35m[BaseDriver][39m Session created with session id: eb534297-19e9-459d-be0d-ea38b33e874b
+[info] [35m[UiAutomator2][39m Starting 'com.goldze.mvvmhabit' directly on the device
+[info] [35m[ADB][39m Using 'adb.exe' from 'D:\Environment\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'[info] [35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices[debug] [35m[ADB][39m Connected devices: [{"udid":"b5d2f0f","state":"device"}]
+[info] [35m[AndroidDriver][39m Using device: b5d2f0f
+[info] [35m[ADB][39m Using 'adb.exe' from 'D:\Environment\Android\Sdk\platform-tools\adb.exe'
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to b5d2f0f
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5d2f0f shell getprop ro.build.version.sdk'[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 31
+[info] [35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5d2f0f shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 12
+[debug] [35m[ADB][39m Device API level: 31
+[info] [35m[UiAutomator2][39m Relaxing hidden api policy
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5d2f0f shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5d2f0f shell am force-stop com.goldze.mvvmhabit'[info] [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[debug] [35m[ADB][39m Running 'D:\Environment\Android\Sdk\platform-tools\adb.exe -P 5037 -s b5d2f0f shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1747402902326 (21:41:42 GMT+0800 (中国标准时间))
+[debug] [35m[W3C][39m Encountered internal error running command: Error executing adbExec. Original error: 'Command 'D:\\Environment\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s b5d2f0f shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 255'; Command output: 
+[debug] [35m[W3C][39m Exception occurred while executing 'delete':
+[debug] [35m[W3C][39m java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:2268)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1435)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1427)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1398)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:523)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider.call(ContentProvider.java:2486)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+[debug] [35m[W3C][39m 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+[debug] [35m[W3C][39m 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+[debug] [35m[W3C][39m 	at android.os.Binder.shellCommand(Binder.java:953)
+[debug] [35m[W3C][39m 	at android.os.Binder.onTransact(Binder.java:837)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransactInternal(Binder.java:1187)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransact(Binder.java:1146)
+[debug] [35m[W3C][39m 
+[debug] [35m[W3C][39m Exception occurred while executing 'delete':
+[debug] [35m[W3C][39m java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:2268)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1435)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1427)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1398)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:523)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider.call(ContentProvider.java:2486)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+[debug] [35m[W3C][39m 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+[debug] [35m[W3C][39m 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+[debug] [35m[W3C][39m 	at android.os.Binder.shellCommand(Binder.java:953)
+[debug] [35m[W3C][39m 	at android.os.Binder.onTransact(Binder.java:837)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransactInternal(Binder.java:1187)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransact(Binder.java:1146)
+[debug] [35m[W3C][39m 
+[debug] [35m[W3C][39m Exception occurred while executing 'delete':
+[debug] [35m[W3C][39m java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:2268)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1435)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1427)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.deleteGlobalSetting(SettingsProvider.java:1398)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:523)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider.call(ContentProvider.java:2486)
+[debug] [35m[W3C][39m 	at android.content.ContentProvider$Transport.call(ContentProvider.java:517)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.deleteForUser(SettingsService.java:408)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:282)
+[debug] [35m[W3C][39m 	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+[debug] [35m[W3C][39m 	at android.os.ShellCommand.exec(ShellCommand.java:38)
+[debug] [35m[W3C][39m 	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+[debug] [35m[W3C][39m 	at android.os.Binder.shellCommand(Binder.java:953)
+[debug] [35m[W3C][39m 	at android.os.Binder.onTransact(Binder.java:837)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransactInternal(Binder.java:1187)
+[debug] [35m[W3C][39m 	at android.os.Binder.execTransact(Binder.java:1146)
+[debug] [35m[W3C][39m 
+[debug] [35m[W3C][39m Error: Command 'D:\\Environment\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s b5d2f0f shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 255
+[debug] [35m[W3C][39m     at ChildProcess.<anonymous> (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\teen_process\lib\exec.js:113:19)
+[debug] [35m[W3C][39m     at ChildProcess.emit (events.js:310:20)
+[debug] [35m[W3C][39m     at maybeClose (internal/child_process.js:1021:16)
+[debug] [35m[W3C][39m     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+[info] [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m1356 ms - 10433[39m
+[info] [35m[HTTP][39m [90m[39m
