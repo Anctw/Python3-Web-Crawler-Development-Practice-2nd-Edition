@@ -10,7 +10,7 @@ import pymysql
 # db.close()
 
 """3.创建表"""
-# db = pymysql.connect(host='localhost', user='root', password='root', port=3306, db='spiders')
+# db = pymysql.connect(host='localhost', user='root', password='密码', port=3306, db='spiders')
 # cursor = db.cursor()
 # sql = 'CREATE TABLE IF NOT EXISTS students (id VARCHAR(255) NOT NULL, name VARCHAR(255) NOT NULL, age INT NOT NULL, PRIMARY KEY (id))'
 # cursor.execute(sql)
@@ -21,7 +21,7 @@ import pymysql
 # user = 'Bob'
 # age = 20
 #
-# db = pymysql.connect(host='localhost', user='root', password='root', port=3306, db='spiders')
+# db = pymysql.connect(host='localhost', user='root', password='密码', port=3306, db='spiders')
 # cursor = db.cursor()
 # 插入数据第一种方法
 # sql = 'INSERT INTO students(id,name, age) VALUES (%s, %s, %s)'
@@ -54,7 +54,7 @@ import pymysql
 # db.close()
 
 """5.更新数据"""
-# db = pymysql.connect(host='localhost', user='root', password='root', port=3306, db='spiders')
+# db = pymysql.connect(host='localhost', user='root', password='密码', port=3306, db='spiders')
 # cursor = db.cursor()
 # sql = "UPDATE STUDENTS SET AGE = %s WHERE NAME = %s"
 # try:
@@ -91,7 +91,7 @@ import pymysql
 # db.close()
 
 """6.删除数据"""
-# db = pymysql.connect(host='localhost', user='root', password='root', port=3306, db='spiders')
+# db = pymysql.connect(host='localhost', user='root', password='密码', port=3306, db='spiders')
 # cursor = db.cursor()
 # table = 'students'
 # condition = 'age > 27'
@@ -109,7 +109,7 @@ import pymysql
 
 
 """7.查询数据"""
-db = pymysql.connect(host='localhost', user='root', password='root', port=3306, db='spiders')
+db = pymysql.connect(host='localhost', user='root', password='密码', port=3306, db='spiders')
 cursor = db.cursor()
 table = 'students'
 condition = 'age > 20'
