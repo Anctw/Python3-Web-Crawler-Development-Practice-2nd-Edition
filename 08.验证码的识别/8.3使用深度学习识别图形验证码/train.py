@@ -36,7 +36,7 @@ def main():
                 torch.save(cnn.state_dict(), "model.pkl")
                 print("save model")
         print("epoch:", epoch, "step:", i, "loss:", loss.item())
-        # eval_acc = evaluate()
+        eval_acc = evaluate()
         # if eval_acc > max_eval_acc:
         #     # best model save as best_model.pkl
         #     torch.save(cnn.state_dict(), "./best_model.pkl")
