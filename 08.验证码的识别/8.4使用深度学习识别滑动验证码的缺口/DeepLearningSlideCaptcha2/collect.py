@@ -6,15 +6,22 @@ from selenium.common.exceptions import WebDriverException
 import time
 from loguru import logger
 
-COUNT = 1000
+COUNT = 30
 
 for i in range(0, COUNT + 1):
     try:
         browser = webdriver.Chrome()
         wait = WebDriverWait(browser, 10)
         browser.get('https://captcha1.scrape.center/')
+        # 源代码中无 添加用户名和密码的文本框内容
+        inputs = browser.find_elements(By.CSS_SELECTOR, '.el-input__inner')
+        inputs[0].send_keys("admin")
+        inputs[1].send_keys("admin")
+
+        # button = browser.find_element(By.CSS_SELECTOR, '.el-button--primary')
+
         button = wait.until(EC.element_to_be_clickable(
-            (By.CSS_SELECTOR, '.el-button')))
+            (By.CSS_SELECTOR, '.el-button--primary')))
         button.click()
         captcha = wait.until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '.geetest_slicebg.geetest_absolute')))
