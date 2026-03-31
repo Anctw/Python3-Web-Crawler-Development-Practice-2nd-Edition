@@ -5,7 +5,7 @@ from requests import Session
 from requests.exceptions import RequestException
 from config import *
 from db import RedisQueue
-from request import MovieRequest
+from Merequest import MovieRequest
 from pyquery import PyQuery as pq
 from loguru import logger
 
@@ -91,6 +91,7 @@ class Spider():
             'score': score
         }
 
+    @logger.catch
     def request(self, request):
         """
         execute request

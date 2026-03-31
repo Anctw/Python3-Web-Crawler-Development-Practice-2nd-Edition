@@ -9,6 +9,8 @@ REDIS_PORT = env.int('REDIS_PORT', 6379)
 
 REDIS_PASSWORD = env.str('REDIS_PASSWORD', None)
 
+REDIS_DB = env.int('PROXYPOOL_REDIS_DB', env.int('REDIS_DB', 2))
+
 REDIS_KEY = env.str('REDIS_KEY', 'antispider5')
 
 PROXY_POOL_URL = env.str('PROXY_POOL_URL', 'http://127.0.0.1:5555/random')

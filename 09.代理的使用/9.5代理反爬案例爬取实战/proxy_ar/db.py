@@ -1,7 +1,7 @@
 from redis import StrictRedis
 from config import *
 from pickle import dumps, loads
-from request import MovieRequest
+from Merequest import MovieRequest
 
 
 class RedisQueue():
@@ -10,7 +10,7 @@ class RedisQueue():
         init redis connection
         """
         self.db = StrictRedis(
-            host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD)
+            host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASSWORD, db=REDIS_DB)
 
     def add(self, request):
         """
