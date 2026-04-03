@@ -1,5 +1,4 @@
 from re import T
-from main import PACKAGE_NAME
 from airtest.core.api import *
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 import adbutils
